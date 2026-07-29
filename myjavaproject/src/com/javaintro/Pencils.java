@@ -7,7 +7,7 @@ public class Pencils {
 		int amount = 100;
 		int pencils = amount/cost;
 		System.out.println("Total pencils:="+pencils);
-		System.out.println("Remaining amount is:"+amount%cost);
+		System.out.println("Remaining amount is:"+ amount%cost);
 
 	}
 
