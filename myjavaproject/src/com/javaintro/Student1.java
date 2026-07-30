@@ -40,6 +40,20 @@ public class Student1 {
 		s1.calculateTotal();
 		s1.calculatepercentage();
 		s1.displaystudent();
+		
+		
+		Student1 s2 = new Student1();
+		s2.studentid=22311492;
+		s2.studentname="rakesh";
+		s2.englishmarks=20;
+		s2.telugumarks=40;
+		s2.hindimarks=60;
+		s2.totalmarks=300;
+		s2.calculateTotal();
+		s2.calculatepercentage();
+		s2.displaystudent();
+		
 	}
-
 }
+
+
